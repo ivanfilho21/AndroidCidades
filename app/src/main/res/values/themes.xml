@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TestApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#333333</item>
+        <item name="colorPrimaryDark">#111111</item>
+    </style>
+
+    <style name="Theme.TestApp.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#333333</item>
+        <item name="colorPrimaryDark">#111111</item>
+    </style>
+
+    <style name="Theme.TestApp.Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+</resources>
